@@ -71,13 +71,14 @@ function convertToStringAndMaybeDrop(val){
   if(val.length > 1){
     val = val.substring(1, val.length);
   }
-  majorKey = val;
+
   return val;
 }
 console.log('majorKey is' + majorKey);
 
 // 12. Call the function.
-  convertToStringAndMaybeDrop(majorKey);
+majorKey =  convertToStringAndMaybeDrop(majorKey);
+
 // 13. Console log `majorKey`.
 console.log('majorKey is' + majorKey);
 console.log(majorKey);
